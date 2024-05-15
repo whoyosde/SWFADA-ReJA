@@ -16,4 +16,3 @@ Característica: PU.001 - Acceso a la bandeja de expedientes de REJA
     Ejemplos:
       | organismo |
       | Secretaria General para la Administración Pública   |
-
