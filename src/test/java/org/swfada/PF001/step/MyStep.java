@@ -17,19 +17,22 @@ public class MyStep extends ScenarioSteps {
     public void SeleccionaLaInstalación(String organismo) {
         myPage.SeleccionarInstalación(organismo);
     }
-
+    @net.thucydides.core.annotations.Step
     public void PulsaElBotónSiguiente() {
         myPage.PulsaElBotónSiguiente();
     }
 
+    @net.thucydides.core.annotations.Step
     public void SeAutenticaMedianteCertificado() throws AWTException {
         myPage.AutenticaciónMedianteCertificado();
     }
 
+    @net.thucydides.core.annotations.Step
     public void PulsaElBotónAceptarLasObligacionesDelSistema() {
         myPage.PulsarAceptarObligaciones();
     }
 
+    @net.thucydides.core.annotations.Step
     public void SeAccedeALaBandejaDeTrabajo() {
         myPage.ValidarAccesoAPlataforma();
     }
